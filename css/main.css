@@ -259,3 +259,58 @@ hr {
 {
   padding-top: 20px;
 }
+
+/* Header styling */
+.header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #ff9800; /* Fancy border color */
+}
+
+.header .title a {
+  color: #ffffff;
+  font-size: 3em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header .title a:hover {
+  color: #ff9800; /* Highlight the title when hovering */
+}
+
+.navigation {
+  margin-top: 15px;
+}
+
+.navigation .extra {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0 5px;
+}
+
+.navigation .extra:hover {
+  background-color: #ff9800; /* Fancy hover effect for links */
+  color: #1e1e1e;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header .title a {
+    font-size: 2em;
+  }
+
+  .navigation .extra {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
